@@ -23,7 +23,7 @@ Adayların **özgeçmişlerini (CV)** analiz ederek pozisyona uygunluklarını d
 
 Aşağıda, Langflow arayüzünde oluşturulan akış yapısı gösterilmektedir:
 
-![Langflow Akışı](CvApp/img/Langflow.png)
+![Langflow Akışı](img/Langflow.png)
 
 > Görselde: CV'den alınan bilgilerle GPT modeli entegre edilerek nasıl mülakat soruları oluşturulduğu gösterilmektedir.
 
