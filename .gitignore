@@ -1,0 +1,68 @@
+# ----------- Global Settings -----------
+# Ignore node_modules (client)
+**/node_modules/
+
+# Ignore build output
+**/dist/
+**/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# ----------- Client (React, Angular, Vue etc.) -----------
+# Ignore environment files
+**/.env*
+**/.next/
+**/.cache/
+**/.nuxt/
+**/.turbo/
+**/coverage/
+
+# VS Code settings
+.vscode/
+
+# ----------- Server (ASP.NET Core) -----------
+# Build results
+**/bin/
+**/obj/
+**/out/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider project files
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# ASP.NET secrets
+**/appsettings.Development.json
+secrets.json
+
+# Entity Framework files (optional)
+**/Migrations/
+
+# Localdb
+*.mdf
+*.ldf
+
+# Publish output
+**/wwwroot/
+
+# Others
+_ReSharper*/
+*.DotSettings.user
+*.vs/
